@@ -1,0 +1,34 @@
+.todos {
+    width: 50%;
+    background-color: #333;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    overflow: scroll;
+    height: 60vh;
+}
+
+.todo {
+    background-color: #222;
+    margin: 0.5rem;
+    border-radius: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.todo:hover {
+    background-color: #111;
+}
+
+.todo p {
+    background-color: #111;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
